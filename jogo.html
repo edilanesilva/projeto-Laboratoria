@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz animals</title>
+  <link rel="stylesheet" href="./style/styles.css ">
+</head>
+
+<body>
+  <header class="container container-box">
+   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigF1aTN6gE52MrIM6dxaH2SVgLZ8WhOPTcKqFIZrrjQyI5t76J3K3kw5MjRo59Q3qhz-NZU-_btVxI7Z-nvRedcXFD5j3B7K3qU7KizQyPeeI4WwFW2Ojg0GxxnAERJ36rctxf-P4xIX9Z0xLe50l1y3n_n5wwjGYSyHphh1AvDPyWZ-tVLekDvhJu/s320/2.png" class="img-responsive">
+      <h2><script type="text/javascript" src="./JavaScript/index.js"></script></h2>
+        <h3>Responda as seguintes perguntas:</h3>
+  </header>
+
+<div id="resultado"></div>
+  <section class="container">
+    <form name="quizAnimals" onsubmit="return verificarRespostas()">
+
+    <div class="container-box">
+      <p>1)Quanto é o tempo de gestação de uma Leoa?</p>
+      <label for="110d">
+        <input type="radio" name="p1" id="110d" value="a" /> a. 110 dias
+      </label>
+      <label for="40d">
+        <input type="radio" name="p1" id="40d" value="b" /> b. 40 dias
+      </label>
+      <label for="60d">
+        <input type="radio" name="p1" id="60d" value="c" /> c. 60 dias
+      </label>
+    </div>
+
+    <div class="container-box">
+      <p>2)Qual é a Felino mais rapido do mundo?</p>
+      <label for="tigre">
+        <input type="radio" name="p2" id="tigre" value="a" /> 
+        a. Tigre
+      </label>
+      <label for="leopardo">
+        <input type="radio" name="p2"value="b" id="leopardo" /> 
+        b. Leopardo
+      </label>
+      <label for="guepardo">
+        <input type="radio" name="p2" id="guepardo" value="c"  /> c. Guepardo
+      </label>
+    </div>
+
+    <div class="container-box">
+      <p>3)Qual é o maior animal do mundo?</p>
+      <label for="leao">
+        <input type="radio" id="leao" name="p3" value="a" /> a. Leão
+      </label>
+      <label for="baleia-azul">
+        <input type="radio" id="baleia-azul"name="p3" value="b" /> b. Baleia Azul
+      </label>
+      <label for="golfinho">
+        <input type="radio" id="golfinho" name="p3" value="c" /> c. Golfinho
+      </label>
+    </div>
+
+    <div class="container-box">
+      <p>4)Qual é a maior ave do mundo?</p>
+      <label for="galinha">
+        <input type="radio" id="galinha" name="p4" value="a" /> a. Galinha
+      </label>
+      <label for="avestruz">
+        <input type="radio" id="avestruz" name="p4" value="b" /> b. Avestruz
+      </label>
+      <label for="morcego">
+        <input type="radio" id="morcego" name="p4" value="c" /> c. Morcego
+      </label>
+    </div>
+    <input class="btn" type="submit" value="Enviar e verificar "> 
+  </form>
+</section>
+
+</body>
+</html>
+
+    
