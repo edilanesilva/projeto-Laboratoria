@@ -11,12 +11,37 @@ body{
 	max-width: 940px;
 	width: 940px;
 	margin: 0 auto;
-	}
+}
 
 .img-reponsive{
 	width: 100%;
 	height: auto; 
 }
+
+/* Estilização capa */
+
+.capa{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.btn1{
+width: 420px;
+height: 55px;
+background-color: black;
+color: white;
+font-size: 25px;
+text-decoration: none;
+text-align: center;
+line-height: 50px;
+}
+
+
+
+
+/* estilização pagina index */
 header h3{
 	padding: 10px 0;
 }
