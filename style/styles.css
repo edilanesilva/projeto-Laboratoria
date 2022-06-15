@@ -4,21 +4,23 @@
  	box-sizing: border-box; 
 } 
 body{
-	background-color: rgb(73, 240, 212);
 	color:black;
+	
 } 
 .container{
 	max-width: 940px;
 	width: 940px;
 	margin: 0 auto;
+	background-color: rgb(73, 240, 212);
+	padding: 20px 0;
 }
 
 .img-reponsive{
-	width: 100%;
+	max-width: 100%;
 	height: auto; 
 }
 
-/* Estilização capa */
+/* Estilização index */
 
 .capa{
 	height: 100vh;
@@ -26,9 +28,10 @@ body{
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
+	background-color: rgb(3, 170, 85);
 }
-.btn1{
-width: 420px;
+.cpa{
+width: 320px;
 height: 55px;
 background-color: black;
 color: white;
@@ -36,20 +39,27 @@ font-size: 25px;
 text-decoration: none;
 text-align: center;
 line-height: 50px;
+border-radius: 5px;
 }
 
+.cpa:hover{
+	background-color: rgb(0, 0, 0);
+	color: rgb(59, 161, 90);
 
+}
 
-
-/* estilização pagina index */
+/* estilização pagina jogo */
 header h3{
 	padding: 10px 0;
 }
 
 #resultado{
 	text-align: center;
-	background-color: green;
-	padding: 10px;
+	background-color: rgb(2, 68, 2);
+	padding: 20px;
+	width: 940px;
+	margin: auto;
+	color: white;
 }
 
 
@@ -63,6 +73,7 @@ header h3{
 .container-box p{
 	font-size: 20px;
 }
+
 .container-box label,p{
 	 padding: 0.65em; 
 	
@@ -83,4 +94,12 @@ header h3{
 	cursor: pointer;
 	font-weight: 200;
 	font-size: 15px;
+}
+footer {
+	color: rgb(243, 235, 235);
+	text-align: center;
+	font-style: italic;
+	background-color: rgb(5, 74, 45);
+	width: 940px;
+	margin: auto;
 }
