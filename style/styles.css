@@ -1,13 +1,15 @@
-*{
-	margin:0;
+* {
+	margin: 0;
 	padding: 0;
- 	box-sizing: border-box; 
-} 
-body{
-	color:black;
-	
-} 
-.container{
+	box-sizing: border-box;
+}
+
+body {
+	color: black;
+
+}
+
+.container {
 	max-width: 940px;
 	width: 940px;
 	margin: 0 auto;
@@ -15,14 +17,14 @@ body{
 	padding: 20px 0;
 }
 
-.img-reponsive{
+.img-reponsive {
 	max-width: 100%;
-	height: auto; 
+	height: auto;
 }
 
 /* Estilização index */
 
-.capa{
+.capa {
 	height: 100vh;
 	display: flex;
 	align-items: center;
@@ -30,30 +32,31 @@ body{
 	justify-content: center;
 	background-color: rgb(3, 170, 85);
 }
-.cpa{
-width: 320px;
-height: 55px;
-background-color: black;
-color: white;
-font-size: 25px;
-text-decoration: none;
-text-align: center;
-line-height: 50px;
-border-radius: 5px;
+
+.cpa {
+	width: 320px;
+	height: 55px;
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 5px;
 }
 
-.cpa:hover{
+.cpa:hover {
 	background-color: rgb(0, 0, 0);
 	color: rgb(59, 161, 90);
 
 }
 
 /* estilização pagina jogo */
-header h3{
+header h3 {
 	padding: 10px 0;
 }
 
-#resultado{
+#resultado {
 	text-align: center;
 	background-color: rgb(2, 68, 2);
 	padding: 20px;
@@ -63,38 +66,41 @@ header h3{
 }
 
 
-.container-box, form  {
-	display:flex;
+.container-box,
+form {
+	display: flex;
 	flex-direction: column;
-	 align-items: center; 
-	font-size: 15px; 
+	align-items: center;
+	font-size: 15px;
 }
 
-.container-box p{
+.container-box p {
 	font-size: 20px;
 }
 
-.container-box label,p{
-	 padding: 0.65em; 
-	
+.container-box label,
+p {
+	padding: 0.65em;
+
 }
 
-.btn{
-	margin-top:20px;
-	width: 25% ;
+.btn {
+	margin-top: 20px;
+	width: 25%;
 	padding: 8px;
 	background-color: rgb(4, 108, 16);
 	color: white;
 	border-radius: 6px;
 }
 
-.btn:hover{
+.btn:hover {
 	background-color: rgb(1, 170, 85);
 	color: black;
 	cursor: pointer;
 	font-weight: 200;
 	font-size: 15px;
 }
+
 footer {
 	color: rgb(243, 235, 235);
 	text-align: center;
